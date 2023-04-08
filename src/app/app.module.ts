@@ -9,10 +9,11 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
-   
+   HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+.login-card {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .login-header-image {
+    /* background-image: url('assets/logo.png'); */
+    background-size: cover;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-button {
+    align-self: center;
+    margin-top: 20px;
+  }
+  
+  body {
+    /* background-image: url('assets/background.jpg'); */
+    background-size: cover;
+  }
