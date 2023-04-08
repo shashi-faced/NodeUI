@@ -7,12 +7,4 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   constructor(public router: Router){}
-  userId: any;
-  login() {
-    console.log(this.userId);
-    console.log(this.password); 
-    // this.router.navigateByUrl('/home');
-  }
-  title = 'NodeUI';
-  password: any;
 }
