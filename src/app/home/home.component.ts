@@ -8,15 +8,15 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent {
   userId: any;
-  title = 'NodeUI';
   password: any;
 
 
-  constructor(public router : Router){}
+  constructor(public router : Router ){}
 
   login() {
     console.log(this.userId);
     console.log(this.password); 
-    this.router.navigateByUrl('/dashboard');
+    
+    // this.  .navigateByUrl('/dashboard');
   }
 }
