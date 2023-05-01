@@ -13,11 +13,14 @@ import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DataService } from './data.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ShowTopicComponent } from './show-topic/show-topic.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-   HomeComponent,
-   DashboardComponent
+    HomeComponent,
+    DashboardComponent,
+    ShowTopicComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,10 +32,9 @@ import { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     MatIconModule,
     MatButtonModule,
-    HttpClientModule
-    
+    HttpClientModule,
   ],
   providers: [DataService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
